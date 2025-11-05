@@ -1,0 +1,78 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "certificates": "Certificates",
+    "skills": "Skills",
+    "about-me": "About Me",
+    "contact": "Contact",
+    "aria": {
+      "home": "Navigate to Home section",
+      "projects": "Navigate to Projects section",
+      "skills": "Navigate to Skills section",
+      "about-me": "Navigate to About Me section"
+    }
+  },
+  "home": {
+    "name": "Erick Solis",
+    "title": "Full Stack Developer",
+    "bio1": "Hello! I'm Erick Solis, a full-stack developer who is passionate about creating innovative and useful web solutions.",
+    "bio2": "I have experience in frontend and backend technologies, combining creativity, logic, and design to build functional and scalable applications.",
+    "bio3": "I consider myself proactive, results-oriented, and committed to quality and continuous improvement.",
+    "cv": "CV"
+  },
+  "projects": {
+    "title": "Projects",
+    "list": [
+      {
+        "title": "Book Platform",
+        "shortDescription": "Web platform for registering and managing books with user authentication.",
+        "longDescription": "Book Platform is an application designed to help users organize and manage their own digital library. It allows users to easily register books, keep them organized in an intuitive dashboard, and access them at any time. In addition, it offers a personalized experience where each user can manage only their own books after registering and logging in. The platform aims to be a practical solution for those who want to have control over their reading and keep track of their collection in a clear and accessible way."
+      },
+      {
+        "title": "Explorify",
+        "shortDescription": "Web application for creating, editing, and exploring collaborative articles about travel.",
+        "longDescription": "Explorify is a collaborative web application designed for users to share and discover travel experiences. It allows users to create, edit, and explore articles about destinations or tourist tips, encouraging participation within a digital community. Each user has secure authentication and a badge system that recognizes their activity. The platform is developed with ReactJS, NodeJS, Express, and MongoDB, and integrates a rich text editor with React Quill. Explorify seeks to connect people through real stories and promote the exchange of knowledge about the world of travel."
+      }
+    ],
+    "buttons": {
+      "visitPage": "Visit page",
+      "viewMore": "View More",
+      "visitRepo": "Visit repository"
+    }
+  },
+  "certificates": {
+    "title": "Certificates",
+    "list": [
+      {
+        "title": "Professional Git Course",
+        "shortDescription": "Source code version control with Git.",
+        "longDescription": "Completed the Professional Git Course at Código Facilito, gaining solid knowledge in version control, branch management, workflows, and collaboration strategies. This certification allows me to handle professional Git environments effectively."
+      },
+      {
+        "title": "Professional GitHub Course",
+        "shortDescription": "Best practices in project management with GitHub.",
+        "longDescription": "Completed the Professional GitHub Course at Código Facilito, learning to use GitHub for collaboration, issue management, code reviews, pull requests, and continuous integration. This training improved my skills in collaborative development environments."
+      },
+      {
+        "title": "Professional JavaScript Course",
+        "shortDescription": "Advanced training in JavaScript with best practices.",
+        "longDescription": "Completed the Professional JavaScript Course at Código Facilito, where I learned advanced concepts such as asynchronous programming, ES6+ features, and application development best practices. This training strengthened my ability to build scalable and efficient solutions using modern JavaScript."
+      }
+    ],
+    "buttons": {
+      "viewMore": "View More"
+    }
+  },
+  "skills": {
+    "technical": "Skills",
+    "tools": "Tools"
+  },
+  "about": {
+    "title": "About Me",
+    "name": "Erick Solis",
+    "role": "Full Stack Developer",
+    "description": "I am a software developer with a passion for creating solutions that bring real value to people. I enjoy understanding user needs and transforming ideas into functional, accessible, and well-designed applications. I am currently seeking my first professional opportunity as a Full Stack Developer, in an environment where I can learn, contribute, and continue to grow. I am constantly learning and committed to quality, innovation, and continuous improvement."
+  },
+  "footer": "Created by Erick Solis 💻"
+}

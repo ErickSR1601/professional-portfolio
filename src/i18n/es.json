@@ -1,0 +1,78 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "projects": "Proyectos",
+        "certificates": "Certificados",
+        "skills": "Habilidades",
+        "about-me": "Sobre mí",
+        "contact": "Contacto",
+        "aria": {
+            "home": "Navegar a la sección de Inicio",
+            "projects": "Navegar a la sección de Proyectos",
+            "skills": "Navegar a la sección de Habilidades",
+            "about-me": "Navegar a la sección de Sobre mí"
+        }
+    },
+    "home": {
+        "name": "Erick Solis",
+        "title": "Desarrollador Full Stack",
+        "bio1": "¡Hola! Soy Erick Solis, Desarrollador Full Stack, apasionado por crear soluciones web innovadoras y útiles.",
+        "bio2": "Tengo experiencia en tecnologías frontend y backend, combinando creatividad, lógica y diseño para construir aplicaciones funcionales y escalables.",
+        "bio3": "Me considero proactivo, orientado a resultados y comprometido con la calidad y la mejora continua.",
+        "cv": "CV"
+    },
+    "projects": {
+        "title": "Proyectos",
+        "list": [
+            {
+                "title": "Book Platform",
+                "shortDescription": "Plataforma web para registrar y gestionar libros con autenticación de usuarios.",
+                "longDescription": "Book Platform es una aplicación diseñada para ayudar a los usuarios a organizar y administrar su propia biblioteca digital. Permite registrar libros de manera sencilla, mantenerlos ordenados en un dashboard intuitivo y acceder a ellos en cualquier momento. Cada usuario cuenta con una experiencia personalizada, donde puede gestionar únicamente sus propios libros tras registrarse e iniciar sesión. Esta plataforma busca ser una solución práctica y moderna para quienes desean tener control sobre sus lecturas y mantener un seguimiento claro de su colección."
+            },
+            {
+                "title": "Explorify",
+                "shortDescription": "Aplicación web para crear, editar y explorar artículos colaborativos sobre viajes.",
+                "longDescription": "Explorify es una aplicación web colaborativa diseñada para que los usuarios puedan compartir y descubrir experiencias de viaje. Permite crear, editar y explorar artículos sobre destinos o consejos turísticos, fomentando la participación dentro de una comunidad digital. Cada usuario cuenta con autenticación segura y un sistema de medallas que reconoce su actividad. La plataforma está desarrollada con ReactJS, NodeJS, Express y MongoDB, e integra un editor de texto enriquecido con React Quill. Explorify busca conectar a las personas a través de historias reales y promover el intercambio de conocimiento sobre el mundo de los viajes."
+            }
+        ],
+        "buttons": {
+            "visitPage": "Visitar página",
+            "viewMore": "Ver más",
+            "visitRepo": "Visitar el repositorio"
+        }
+    },
+    "certificates": {
+        "title": "Certificados",
+        "list": [
+            {
+                "title": "Curso Profesional de Git",
+                "shortDescription": "Control de versiones de código con Git.",
+                "longDescription": "Completé el Curso Profesional de Git en Código Facilito, obteniendo conocimientos sólidos en control de versiones, manejo de ramas, flujos de trabajo y estrategias de colaboración. Este certificado me permite desenvolverme de manera efectiva en entornos profesionales con Git."
+            },
+            {
+                "title": "Curso Profesional de GitHub",
+                "shortDescription": "Buenas prácticas en gestión de proyectos con GitHub.",
+                "longDescription": "Completé el Curso Profesional de GitHub en Código Facilito, aprendiendo a usar GitHub para colaboración, gestión de issues, revisiones de código, pull requests e integración continua. Esta formación mejoró mis habilidades en entornos de desarrollo colaborativo."
+            },
+            {
+                "title": "Curso Profesional de JavaScript",
+                "shortDescription": "Formación avanzada en JavaScript con buenas prácticas.",
+                "longDescription": "Completé el Curso Profesional de JavaScript en Código Facilito, donde aprendí conceptos avanzados como programación asíncrona, características de ES6+ y buenas prácticas en el desarrollo de aplicaciones. Esta formación fortaleció mi capacidad para construir soluciones escalables y eficientes usando JavaScript moderno."
+            }
+        ],
+        "buttons": {
+            "viewMore": "Ver más"
+        }
+    },
+    "skills": {
+        "technical": "Habilidades",
+        "tools": "Herramientas"
+    },
+    "about": {
+        "title": "Sobre Mí",
+        "name": "Erick Solis",
+        "role": "Desarrollador Full Stack",
+        "description": "Soy un desarrollador de software con pasión por crear soluciones que aporten valor real a las personas. Me gusta entender las necesidades de los usuarios y transformar ideas en aplicaciones funcionales, accesibles y bien diseñadas. Actualmente busco mi primera oportunidad profesional como Desarrollador Full Stack, en un entorno donde pueda aprender, aportar y seguir creciendo. En constante aprendizaje y comprometido con la calidad, la innovación y la mejora continua."
+    },
+    "footer": "Creado por Erick Solis 💻"
+}

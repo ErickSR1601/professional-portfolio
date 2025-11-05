@@ -1,0 +1,142 @@
+:root {
+  --main-bg-color: #0d1117;
+  --card-bg-color: #161b22;
+  --accent-color: #1f6feb;
+  --text-color: #ffffff;
+  --secondary-text: #8b949e;
+  --font-primary: "Popins", sans-serif;
+  --font-secondary: "Inter", sans-serif;
+  --shadow-color: rgba(31, 111, 235, 0.2);
+}
+
+.about-me-section {
+  padding: 60px 20px;
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.about-me-title {
+  font-size: 44px;
+  font-family: var(--font-primary);
+  margin-bottom: 40px;
+}
+
+.about-me-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-me-card {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  aspect-ratio: 6 / 7;
+  background: var(--card-bg-color);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px var(--shadow-color);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.about-me-card:hover {
+  transform: scale(1.05);
+}
+
+.imgBx {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.imgBx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.details {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(13, 17, 23, 0.85);
+  padding: 15px 10px;
+  color: var(--text-color);
+  font-family: var(--font-secondary);
+  text-align: center;
+}
+
+.details h2 {
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.details h2 span {
+  font-size: 14px;
+  color: var(--accent-color);
+  display: block;
+  margin-top: 4px;
+}
+
+.about-me-text {
+  max-width: 600px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: var(--font-secondary);
+  color: var(--secondary-text);
+}
+
+.social-links {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 18px;
+}
+
+.social-links a {
+  color: var(--text-color);
+  font-size: 26px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffffff;
+  transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+
+  .about-me-text {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .about-me-title {
+    font-size: 32px;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-me-title {
+    font-size: 24px;
+  }
+
+  .about-me-text {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}

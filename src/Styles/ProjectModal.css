@@ -1,0 +1,123 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.project-modal-content {
+  background: var(--card-bg);
+  color: var(--text-light);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 800px;
+  width: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  color: var(--text-light);
+  cursor: pointer;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  max-height: 500px; /* para pantallas grandes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto; /* se adapta según el ancho */
+  max-height: 700px;
+  object-fit: contain; /* evita cortes en móviles */
+  border-radius: 8px;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--accent-blue);
+  border: none;
+  color: white;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.carousel-btn.left {
+  left: 10px;
+}
+.carousel-btn.right {
+  right: 10px;
+}
+
+.modal-title {
+  font-family: var(--font-primary);
+  font-size: 28px;
+  margin: 0;
+}
+
+.modal-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #c9d1d9;
+}
+
+.modal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background-color: var(--hover-blue);
+  color: var(--main-bg);
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+.modal-buttons {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  gap: 10px;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+  .carousel {
+    max-height: 300px; /* menor altura en tablets */
+  }
+
+  .carousel-image {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    max-height: 220px; /* aún más pequeño en celulares */
+  }
+
+  .carousel-image {
+    max-height: 220px;
+  }
+}
