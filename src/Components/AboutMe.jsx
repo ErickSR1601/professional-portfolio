@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import Photo from "../Assets/Profile/Photo.webp";
 import { useTranslation } from "react-i18next";
+import CV from "../Assets/Files/CV Erick Solis - Software Developer.pdf";
 
 function AboutMe() {
   const { t } = useTranslation();
@@ -57,7 +58,7 @@ function AboutMe() {
             <a href="mailto:dev.ericksr.16@gmail.com" aria-label="Email">
               <FaEnvelope />
             </a>
-            <a href="" download aria-label="Download CV">
+            <a href={CV} download aria-label="Download CV">
               <FaFileDownload />
             </a>
           </div>
